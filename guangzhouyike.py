@@ -50,7 +50,7 @@ sports_man_path = "./sports_man/guangzhouyike.csv"
 
 
 
-######函数作用：写入csv
+#######函数作用：写入csv
 def csv_write(list,file_path):
     csvFile2 = open(file_path, 'ab')  # 设置newline，否则两行之间会空一行
     csvFile2.write(codecs.BOM_UTF8)
